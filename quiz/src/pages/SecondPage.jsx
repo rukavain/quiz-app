@@ -14,7 +14,7 @@ const SecondPage = () => {
           <img src={images.catDate} alt="" />
           <Link to="/food">
             <button
-              onClick={() => alert("Cool date. ;)")}
+              onClick={() => alert("Cool date ;)")}
               className="py-4 px-12 text-xl rounded-md shadow-md font-bold hover:text-white hover:bg-pink-300 transition-all"
               type="submit"
             >

@@ -7,6 +7,12 @@ const images = {
   food3: new URL("./wingzone.jpg", import.meta.url).href,
   food4: new URL("./yakimix.jpg", import.meta.url).href,
   food5: new URL("./yufuin.jpg", import.meta.url).href,
+  coffee: new URL("./coffee.jpg", import.meta.url).href,
+  jco: new URL("./jco.jpg", import.meta.url).href,
+  blueberry: new URL("./blueberry.jpg", import.meta.url).href,
+  lastpage: new URL("./lastpage.jpg", import.meta.url).href,
+  lastpage: new URL("./lastpage.jpg", import.meta.url).href,
+  lastpage: new URL("./lastpage.jpg", import.meta.url).href,
 };
 
 export default images;
