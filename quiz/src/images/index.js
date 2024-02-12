@@ -11,8 +11,7 @@ const images = {
   jco: new URL("./jco.jpg", import.meta.url).href,
   blueberry: new URL("./blueberry.jpg", import.meta.url).href,
   lastpage: new URL("./lastpage.jpg", import.meta.url).href,
-  lastpage: new URL("./lastpage.jpg", import.meta.url).href,
-  lastpage: new URL("./lastpage.jpg", import.meta.url).href,
+  catdonut: new URL("./catdonut.jpg", import.meta.url).href,
 };
 
 export default images;

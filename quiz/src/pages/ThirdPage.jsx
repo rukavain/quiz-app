@@ -1,13 +1,26 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import images from "../images";
+import "aos/dist/aos.css";
+import AOS from "aos";
+import { useEffect } from "react";
 
 const ThirdPage = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <section className="flex flex-col justify-start py-12 items-center bg-pink-300 h-auto">
-      <div className="rounded-md shadow-md py-6 px-12 bg-white flex flex-col gap-12 max-w-xl">
-        <h1 className="text-4xl font-semibold">Where do you want to eat?</h1>
-        <img src={images.catFood} alt="" />
+      <div
+        data-aos="fade-down"
+        className="rounded-md shadow-md py-6 px-12 bg-white flex flex-col gap-12 max-w-xl"
+      >
+        <h1 data-aos="fade-down" className="text-4xl font-semibold">
+          Where do you want to eat?
+        </h1>
+        <img data-aos="fade-down" src={images.catFood} alt="" />
       </div>
       <div className="flex gap-12 my-12 justify-center items-center bg-white shadow-md py-4 px-8 mx-8 flex-wrap h-auto rounded-md ">
         <Link onClick={() => alert("Good food!")} to="/valentinesday">
