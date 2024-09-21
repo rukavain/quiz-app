@@ -25,7 +25,7 @@ const FirstPage = () => {
           </h1>
           <p data-aos="fade-down" className="text-center font-semibold text-xl">
             Hello girlfriend, pleasant day to you. Will you be my partner for
-            the upcoming Valentine's day event?
+            the upcoming Valentine's day event? :33
           </p>
         </div>
         <div data-aos="fade-down" className="flex justify-center items-center">
